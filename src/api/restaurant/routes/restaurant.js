@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * author router.
+ * restaurant router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::author.author');
+module.exports = createCoreRouter('api::restaurant.restaurant');
